@@ -1,1 +1,2 @@
-# DigitalDungeon3.0
+# El Rincon de Isma
+## Template for Laravel install
