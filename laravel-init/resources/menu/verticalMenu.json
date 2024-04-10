@@ -7,10 +7,22 @@
       "slug": "pages-home"
     },
     {
-      "url": "/page-2",
-      "icon": "menu-icon tf-icons bx bx-file",
-      "name": "Page 2",
-      "slug": "pages-page-2"
+      "url": "/",
+      "name": "CONTACTANOS :",
+      "slug": "pages-home"
+      
+    },
+    {
+      "url": "/",
+      "name": "3271090436",
+      "slug": "pages-home"
+      
+    },
+    {
+      "url": "/",
+      "name": "digitaldegeon@gmail.com",
+      "slug": "pages-home"
+      
     }
   ]
 }

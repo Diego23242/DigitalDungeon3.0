@@ -8,7 +8,7 @@ $breadcrumbs = [['link' => 'home', 'name' => 'Home'], ['link' => 'javascript:voi
 
 
 @section('content')
-
+@role('admin')
   @if (Laravel\Fortify\Features::canUpdateProfileInformation())
    <div class="mb-4">
       @livewire('profile.update-profile-information-form')
@@ -34,5 +34,5 @@ $breadcrumbs = [['link' => 'home', 'name' => 'Home'], ['link' => 'javascript:voi
   @if (Laravel\Jetstream\Jetstream::hasAccountDeletionFeatures())
     @livewire('profile.delete-user-form')
   @endif
-
+@endrole
 @endsection

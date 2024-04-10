@@ -28,7 +28,7 @@
 <body>
   <!-- Layout Content -->
   @yield('layoutContent')
-  <!--/ Layout Content -->
+ 
 
   
 
